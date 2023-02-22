@@ -1,86 +1,47 @@
-
-
-  body{
-    background-image: url(/Images/couple.png);
-  }
-
-  .logo{
-    cursor: pointer;
-    width: 100px;
-    transform: translate(160px,500px);
-    width: 150px;
-  }
-
-  .section1{
-    height: .1px;
-    padding: 30px;
-    width: 180px;
-    justify-content:center;
-    align-self:center;
-    display: flex;
-    transform: translate(110px,520px);
-    border: 2px solid #FBE5E3;
-    border-radius: 12px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
-    justify-content:center;
-    align-self:center;
-    color: white;
-  }
-  
-
-.section1:hover{
-    background-color:#FBE5E3;
-    width: 180px;
-    transform: translate(110px,520px);
-    border-radius: 12px;
-    color: black;
+.backgroundImage {
+  background-image: url('../Images/couple.png');
+  height: 844px;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-  .appleID{
-   transform: translateY(-10px) ;
-  }
+.logo {
+  text-align: center;
+  cursor: pointer;
+  width: 100px;
+  width: 150px;
+  transform: translateY(540px);
+}
 
-  .section2{
-    height: .1px;
-    padding: 30px;
-    width: 180px;
-    justify-content:center;
-    align-self:center;
-    display: flex;
-    transform: translate(110px,530px);
-    border: 2px solid #FBE5E3;
-    border-radius: 12px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
-     justify-content:center;
-     align-self:center;
-     color: white;
-    }
+.signInOptions {
+  padding: 5px;
+  text-align: center;
+  border: 2px solid #FBE5E3;
+  border-radius: 12px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  align-self: center;
+  color: black;
+  transform: translateY(540px);
+  margin-top:10px;
+}
 
-    .section2:hover{
-        background-color:#FBE5E3;
-        width: 180px;
-        transform: translate(110px,530px);
-        border-radius: 12px;
-        color: black;
-    }
+.signInOptions:hover {
+  background-color: #FBE5E3;
+  border-radius: 12px;
+  color: black;
+}
 
-    .phonenumber{
-        transform: translateY(-10px);
-    }
+.logIn {
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(0, 0, 0);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  transform: translateY(540px);
+  margin-top:10px;
+}
 
-    .log{
-        font-family: 'Montserrat', sans-serif;
-        color: white;
-        align-items: center;
-        justify-content: center;
-        display: flex;
-        transform: translateY(540px);
-    }
-
-    .log:hover{
-        color: #FBE5E3;
-    }
-
-   
+.logIn:hover {
+  color: #FBE5E3;
+}
